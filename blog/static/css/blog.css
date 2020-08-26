@@ -54,10 +54,13 @@ h1 a, h2 a {
 
 .top-menu, .top-menu:hover, .top-menu:visited {
     /*changes the + icon */
-    color: #b93737;
+    color: #b93730;
     float: right;
+	
     font-size: 26pt;
-    margin-right: 20px;
+    margin: auto;
+padding:20px;
+	
 }
 
 .post {
@@ -93,4 +96,16 @@ h1 a, h2 a {
     border-color: tomato;
     background-color: white;
     font-size: 15px;
+}
+.login-button {
+    background-color: tomato;
+    font-family: 'Squada One', cursive;
+    color : white;
+    border: 10px solid tomato;
+font-size: 30px;
+}
+.login-page{
+	text-align:center;
+	width :40%;
+	margin:auto;
 }

@@ -12,8 +12,11 @@
     <body>
         <div class="page-header">
             {% if user.is_authenticated %}
+	        <h2 class = "top-menu"><a href="{% url 'logout' %}">Logout</a></h2>
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-            {% endif %}
+ 		Hi {{ user.username }}!
+  		
+	    {% endif %}
             <h1><a href="/">My Super Awesome Website</a></h1>
         </div>
         <div class="content container">
