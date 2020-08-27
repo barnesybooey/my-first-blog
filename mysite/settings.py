@@ -122,15 +122,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-<<<<<<< Updated upstream
-LOGIN_REDIRECT_URL = '/'
-<<<<<<< HEAD
-LOGOUT_REDIRECT_URL = '/'
-=======
-LOGOUT_REDIRECT_URL = 'login'
-=======
-MEDIA_URL = '/media/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
->>>>>>> Stashed changes
->>>>>>> 754d7c217541879b6ca2d82eb923a535fce0a8af
