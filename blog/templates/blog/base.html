@@ -16,6 +16,8 @@
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
  		Hi {{ user.username }}!
   		
+	    {%else%} 
+		<h2 class = "top-menu"><a href="{% url 'login' %}">Login</a></h2>
 	    {% endif %}
             <h1><a href="/">My Super Awesome Website</a></h1>
         </div>
